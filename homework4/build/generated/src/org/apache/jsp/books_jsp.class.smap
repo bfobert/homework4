@@ -1,18 +1,18 @@
 SMAP
-thanks_jsp.java
+books_jsp.java
 JSP
 *S JSP
 *F
-+ 0 thanks.jsp
-thanks.jsp
++ 0 books.jsp
+books.jsp
 + 1 header.html
 includes/header.html
 + 2 footer.jsp
 includes/footer.jsp
 *L
-5,4:50
-1#1,10:53
-8#0,15:62
-4#2,7:76
-22#0:82,2
+5,5:50
+1#1,10:54
+9#0,15:63
+4#2,7:77
+23#0:83
 *E

@@ -54,9 +54,13 @@ h2{
     padding:3px;
     margin-left: 2em;
 }
-#subtitle{
+h2{
     margin-left: 1.3em;
 }
 #book_title{
     width:170%;
+}
+#thanks{
+    text-align: left;
+    padding:.3em;
 }

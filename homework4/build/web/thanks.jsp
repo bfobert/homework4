@@ -9,10 +9,16 @@
 <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<a> <img id="library" src="images/belk-02.jpg" alt="lib"></a>
+<h1>Belk Library</h1>
+<div id=mainBox>
+    <p id='thanks'>
+Thank you for your patronage of the Belk Library. You've successfully checked
+out the book, NAME OF THE BOOK!. Please note that this book is due
+back on DUE DATE. A friendly email reminder will be sent to you if
+your book becomes overdue.
+<br><br>
+<a id="return" href="/index.jsp">Return to front page</a>
+    </p>
+</div>
+<%@include file="/includes/footer.jsp" %>
