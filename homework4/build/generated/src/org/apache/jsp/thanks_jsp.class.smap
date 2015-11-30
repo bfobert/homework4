@@ -1,0 +1,14 @@
+SMAP
+thanks_jsp.java
+JSP
+*S JSP
+*F
++ 0 thanks.jsp
+thanks.jsp
++ 1 header.html
+includes/header.html
+*L
+5,4:49
+1#1,10:52
+8#0,12:61
+*E

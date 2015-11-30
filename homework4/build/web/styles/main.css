@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 30, 2015, 1:07:57 PM
+    Author     : bfobert
+*/
+
+body{
+    text-align: center;
+}
+#mainBox{
+    margin:0 auto;
+    border:2px solid red;
+    max-width: 70%;
+    margin-bottom: 10px;
+}
+#inBox{
+    text-align: left;
+    padding:.2em;
+    font-weight: bold;
+}
+footer{
+    border-top: 2px solid navy;
+    text-align: left;
+    padding:.5em;
+}
+form{
+    text-align: left;
+}
+input[type=text] {
+    width: 100%;
+}
+input[type=email] {
+    width: 100%;
+}
+
+.row {
+  display: flex;
+}
+.item1 {
+  width: 20%;
+}
+.item2{
+    width: 30%;
+    margin-bottom: 5px;
+}
+h2{
+    text-align: left;   
+}
+.grid{
+    padding:3px;
+    margin-left: 2em;
+}
+#subtitle{
+    margin-left: 1.3em;
+}
+#book_title{
+    width:170%;
+}
