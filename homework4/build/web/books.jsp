@@ -22,6 +22,7 @@
     <td>${book.lastName}</td>
     <td>${book.email}</td>
     <td>${book.title}</td>
+    <td></td>
     <td><a href="userAdmin?action=delete_user&amp;email=${book.email}">Delete</a></td>
   </tr>
   </c:forEach>

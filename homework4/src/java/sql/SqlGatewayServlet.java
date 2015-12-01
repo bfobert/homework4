@@ -42,7 +42,7 @@ public class SqlGatewayServlet extends HttpServlet {
                     // create the HTML for the result set
                     ResultSet resultSet
                             = statement.executeQuery(sqlStatement);
-                    sqlResult = SQLUtil.getHtmlTable(resultSet);
+//  I dont think we are going to use this... sqlResult = SQLUtil.getHtmlTable(resultSet);
                     resultSet.close();
                 } else {
                     int i = statement.executeUpdate(sqlStatement);
