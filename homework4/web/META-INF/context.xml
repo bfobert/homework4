@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" path="/homework4"/>
+<Context antiJARLocking="true" path="/homework4" />
+<!--<Resource url="jdbc:mysql://localhost:3307/homework4" driverClassName="com.mysql.jdbc.Driver" 
+              username="root" password="mysqluser" 
+              auth="Container" type="javax.sql.DataSource" 
+              maxActive="20" maxIdle="5" maxWait="10000"
+              logAbandoned="true" removeAbandoned="true"
+              removeAbandonedTimeout="60"
+              name="jdbc/MySQLDS"
+    />
+</Context>-->

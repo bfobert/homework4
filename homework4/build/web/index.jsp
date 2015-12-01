@@ -14,9 +14,9 @@
 <h1>Belk Library</h1>
 <div id=mainBox>
     <p id="inBox">
-<a id="checkout" href="products/cat.htm">Check out a book</a>
+<a id="checkout" href="checkout.jsp">Check out a book</a>
 <br>
-<a id="manage" href="products/cat.htm">Manage checked out books</a>
+<a id="manage" href="books.jsp">Manage checked out books</a>
 </p>
 </div>
 <%@include file="/includes/footer.jsp" %>

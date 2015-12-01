@@ -13,14 +13,14 @@
     <h1>Belk Library</h1>
     <div id=mainBox>
         <h2 id="subtitle">Checkout a book</h2>
-        <form id="email-form" name="checkout-form" action="checkout" method="post">
+        <form id="checkout-form" name="checkout-form" action="checkout" method="post">
 
             <input type="hidden" name="action" value="add">
             <div class ="grid">
 
                 <div class ="row">    
                     <div class ="item1">
-                        <label for="investment">First Name:</label>
+                        <label for="first">First Name:</label>
                     </div>
                     <div class ="item2">  
                         <input type="text" id="first" name="first" required>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="row">
                     <div class="item1">
-                        <label for="rate">Last Name:</label>
+                        <label for="last">Last Name:</label>
                     </div>
                     <div class="item2">
                         <input type="text" id="last" name="last" required>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="row">
                     <div class="item1">
-                        <label for="years">Email Address:</label>
+                        <label for="email">Email Address:</label>
                     </div>
                     <div class="item2">
                         <input type="email" id="years" name="email" required>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="row">
                     <div class="item1">
-                        <label for="rate">Book Title:</label>
+                        <label for="title">Book Title:</label>
                     </div>
                     <div class="item2">
                     <input type="text" id="book_title" name="book" required>

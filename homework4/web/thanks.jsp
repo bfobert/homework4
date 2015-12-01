@@ -18,7 +18,7 @@ out the book, NAME OF THE BOOK!. Please note that this book is due
 back on DUE DATE. A friendly email reminder will be sent to you if
 your book becomes overdue.
 <br><br>
-<a id="return" href="/index.jsp">Return to front page</a>
+<a id="return" href="index.jsp">Return to front page</a>
     </p>
 </div>
 <%@include file="/includes/footer.jsp" %>
