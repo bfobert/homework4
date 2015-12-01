@@ -25,11 +25,11 @@ public class Books implements Serializable {
         title = "";
     }
 
-    public Books(String first, String last, String email, String book) {
+    public Books(String first, String last, String email, String title) {
         this.firstName = first;
         this.lastName = last;
         this.email = email;
-        this.title = book;
+        this.title = title;
     }
 
     public String getFirstName() {

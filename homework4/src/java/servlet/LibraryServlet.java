@@ -96,8 +96,8 @@ public class LibraryServlet extends HttpServlet {
             book.setLastName(lastName);
             book.setEmail(email);
             book.setTitle(title);
-            
-            request.setAttribute("book", book);
+//            
+//            request.setAttribute("book", book);
             url = "/thanks.jsp";
             
            }

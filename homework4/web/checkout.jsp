@@ -47,7 +47,7 @@
                         <label for="title">Book Title:</label>
                     </div>
                     <div class="item2">
-                    <input type="text" id="book_title" name="book" required>
+                    <input type="text" id="book_title" name="title" required>
                     </div>
                 </div>
                         <div class="row">

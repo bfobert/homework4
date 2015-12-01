@@ -14,7 +14,7 @@
 <div id=mainBox>
     <p id='thanks'>
 Thank you for your patronage of the Belk Library. You've successfully checked
-out the book, NAME OF THE BOOK!. Please note that this book is due
+out the book, ${sessionScope.title}. Please note that this book is due
 back on DUE DATE. A friendly email reminder will be sent to you if
 your book becomes overdue.
 <br><br>
