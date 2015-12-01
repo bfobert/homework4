@@ -9,6 +9,7 @@ import Data.Books;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,6 +19,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author bfobert
  */
+@WebServlet(name = "LibraryServlet", urlPatterns = {"/thanks"})
 public class LibraryServlet extends HttpServlet {
 
     /**
@@ -58,7 +60,7 @@ public class LibraryServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        doPost(request, response);
     }
 
     /**
@@ -74,8 +76,9 @@ public class LibraryServlet extends HttpServlet {
             throws ServletException, IOException {
         HttpSession session = request.getSession();
         String url = "index.jsp";
-        String action = request.getParameter("action");
         
+        String action = request.getParameter("action");
+        System.out.println(action);
         if (action != null && action.equals("add")) {
             url = "/thanks.jsp";
 
@@ -94,16 +97,16 @@ public class LibraryServlet extends HttpServlet {
             book.setEmail(email);
             book.setTitle(title);
             
-            
+            request.setAttribute("book", book);
             url = "/thanks.jsp";
-
-        }
+            
+           }
         getServletContext()
                 .getRequestDispatcher(url)
                 .forward(request, response);
         
         
-//        processRequest(request, response);
+        processRequest(request, response);
     }
 
     /**
